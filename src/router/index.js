@@ -15,15 +15,15 @@ import Store from '../redux';
 import DevTools from '../redux/DevTools';
 
 //路由component的路径值
-import App from '../containers/app';
-import Login from '../containers/login';
-import Main from '../containers/main';
-import NotFound from '../containers/notfound';
-import List from '../containers/list';
-import Img from '../containers/img';
-import Svg from '../containers/svg';
-import Icon from '../containers/icon';
-import User from '../containers/user';
+import App from '../pages/app';
+import Login from '../pages/login';
+import Main from '../pages/main';
+import NotFound from '../pages/notfound';
+import List from '../pages/list';
+import Img from '../pages/img';
+import Svg from '../pages/svg';
+import Icon from '../pages/icon';
+import User from '../pages/user';
 
 //为了传递嵌套路由到子组件
 const Router = ({component: Component, children, ...rest}) => (

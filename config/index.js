@@ -22,7 +22,7 @@ module.exports = {
         }
       }
     },
-    useEslint: true,
+    useEslint: false, // 关闭Eslint代码格式
     autoOpenBrowser: false,
     errorOverlay: true,
     notifyOnErrors: true,
